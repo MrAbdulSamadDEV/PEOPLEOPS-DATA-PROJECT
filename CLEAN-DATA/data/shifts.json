@@ -1,0 +1,40 @@
+{
+  "shifts": [
+    {
+      "shift_code": "DAY",
+      "name": "Day",
+      "start_time": "06:00",
+      "end_time": "14:00",
+      "crosses_midnight": false,
+      "grace_minutes": 10,
+      "applies_to": "Plant shift workers"
+    },
+    {
+      "shift_code": "EVE",
+      "name": "Evening",
+      "start_time": "14:00",
+      "end_time": "22:00",
+      "crosses_midnight": false,
+      "grace_minutes": 10,
+      "applies_to": "Plant shift workers"
+    },
+    {
+      "shift_code": "NIGHT",
+      "name": "Night",
+      "start_time": "22:00",
+      "end_time": "06:00",
+      "crosses_midnight": true,
+      "grace_minutes": 10,
+      "applies_to": "Plant shift workers"
+    },
+    {
+      "shift_code": "GEN",
+      "name": "General",
+      "start_time": "09:00",
+      "end_time": "17:30",
+      "crosses_midnight": false,
+      "grace_minutes": 10,
+      "applies_to": "Head office and plant staff"
+    }
+  ]
+}
